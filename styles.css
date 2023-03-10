@@ -1,0 +1,29 @@
+
+.primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.grid {
+    display: grid;
+    box-sizing: content-box;
+    width: 575px;
+    height: 575px;
+    border-style: solid;
+    border-color: bisque;
+}
+
+.element {
+    background-color: white;
+}
+
+.colored {
+    background-color: black;
+}
+
+h1 {
+text-align: center;
+}
